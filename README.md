@@ -8,7 +8,7 @@ These instructions will get your project up and running on your local machine fo
 
 ### Prerequisites
 
-- Node.js (>= 14.x)
+- Node.js (>= 20.x)
 - npm or yarn
 
 ### Installation
