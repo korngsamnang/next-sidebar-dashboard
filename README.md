@@ -9,7 +9,7 @@ These instructions will get your project up and running on your local machine fo
 ### Prerequisites
 
 - Node.js (>= 20.x)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -19,8 +19,9 @@ Clone the repository and install dependencies:
 git clone https://github.com/korngsamnang/next-sidebar-dashboard.git
 cd next-sidebar-dashboard
 npm install
-# or
-yarn install
+
+# In case, npm install give you an error, you can try
+npm install --legacy-peer-deps
 ```
 
 ### Running the Development Server
@@ -29,8 +30,6 @@ To start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open http://localhost:3000 in your browser to see your app.
